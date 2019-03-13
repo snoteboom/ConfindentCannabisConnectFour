@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Title-Text{
+  margin-bottom: 10px;
+}
+h1{
+  margin: 0;
+}
+.Restart-Button{
+  background-color: #2c82c9;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.Restart-Text{
+  font-size: 16px;
+  margin: 0;
+}
+
+.End-Message{
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.message{
+  font-size: 18px;
+}
+.error{
+  color: red
+}
+.Board{
+  display: -webkit-flex;
+  display: flex;
+  background: #2c82c9;
+  height: 800px;
+  width: 900px;
+  align-items: center;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.row{
+  background: #f5e51b;
+  width: 840px;
+  height: 120px;
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+  justify-content: space-between;
+}
+
+.Slot{
+  display: flex;
+  width: 100px;
+  background: #f5e51b;
+  align-items: center;
+  justify-content: center;
+}
+
+.Circle{
+  width:75px;
+  height:75px;
+  border-radius: calc(75px/2);
+}
+
+.Circle.White{
+  background: white;
+}
+.Circle.Black{
+  background: black;
+}
+.Circle.Red{
+  background: red;
+}
+
+.Empty{
+  background: white;
+  width: 840px;
+  height: 120px;
+}
